@@ -1,0 +1,20 @@
+.chat-container {
+  margin-top: 100px;
+  text-align: center; /* Center align the content */
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center align items */
+}
+
+.input-field {
+  flex: 0.9; /* Take up remaining space */
+  padding: 20px;
+  margin-right: 20px; /* Add margin between input and button */
+}
+
+.send-button {
+  padding: 20px; /* Add padding to the button */
+}

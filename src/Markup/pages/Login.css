@@ -1,0 +1,33 @@
+.bg-image {
+  background-image: url("../../assets/img/Image.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(144, 144, 159);
+}
+
+.login-text {
+  position: absolute;
+  top: 60%;
+  left: 10%; /* Adjust the percentage to align the text to the left */
+  transform: translateY(-50%); /* Remove translateX to not affect horizontal alignment */
+  text-align: left; /* Align text to the left */
+  color: #ffffff;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  height: 100%;
+  background: #1162d7; /* Adjust the transparency and color here */
+}
+
+.login-form {
+  width: 80%; /* Ensure the form width matches the text width */
+}

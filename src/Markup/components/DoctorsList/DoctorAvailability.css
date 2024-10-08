@@ -1,0 +1,34 @@
+.containerdocd {
+  max-width: 300px;
+  text-align: center;
+  /* margin: 100px 0; */
+  /* padding: 20px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+.availability-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.availability-item {
+  /* padding: 15px; */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.availability-item p {
+  margin: 5px 0;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}

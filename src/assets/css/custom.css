@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/agency-fb");
+
+.logotext {
+  font-family: "Agency FB", sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  color: #384046 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+@media (max-width: 900px) {
+  .logotext {
+    font-size: 1rem !important;
+  }
+}
+
+.login_top,
+.register_top {
+  margin-top: 15vh !important;
+  margin-bottom: 15vh !important;
+}
+.header .link a {
+  padding: 15px;
+}
+.header .link a:hover {
+  background-color: #f0f2f4;
+  border-radius: 10px;
+}
+
+/* .changePasswordButton */
+
+.agreed-to-receive {
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 10px;
+}
+.agreed-to-receive input {
+  margin-top: -1vh;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .editinfo {
+    font-size: 15px !important;
+  }
+  .editicon {
+    font-size: 25px !important;
+  }
+}
+
+.video-iframe {
+  max-width: 100%; /* Ensures the iframe doesn't overflow on mobile screens */
+}
+@media (min-width: 768px) {
+  .quick-contact {
+    width: 200px;
+    margin-left: 53%;
+  }
+  .call {
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* #f6f7f5 */

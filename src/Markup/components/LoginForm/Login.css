@@ -1,0 +1,108 @@
+/* Existing styles */
+.bg-image {
+  background-image: url("../../../assets/img/Image.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-color: rgb(144, 144, 159); */
+}
+
+.login-text {
+  position: absolute;
+  top: 60%;
+  left: 10%; /* Adjust the percentage to align the text to the left */
+  transform: translateY(
+    -50%
+  ); /* Remove translateX to not affect horizontal alignment */
+  text-align: left; /* Align text to the left */
+  color: #ffffff;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.6;
+  height: 100%;
+  background: #3368c6;
+  /* Adjust the transparency and color here */
+}
+
+.login-form {
+  width: 80%; /* Ensure the form width matches the text width */
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 2.5rem; /* Adjust padding to make space for the icon */
+}
+
+.toggle-password-visibilityone {
+  position: absolute;
+  top: 65%;
+  right: 0.75rem; /* Adjust as needed */
+  transform: translateY(
+    -40%
+  ); /* Slightly adjust the translateY to better center the icon */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #aaa; /* Adjust color as needed */
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+.toggle-password-visibilityone:hover {
+  background-color: transparent;
+}
+
+.toggle-password-visibilityone:focus {
+  outline: none;
+}
+
+.login-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #1162d7; /* Blue background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-button:hover {
+  /* background-color: #0d4cb7; */
+  /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.login-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .login-text {
+    left: 5%; /* Adjust the percentage for smaller screens */
+    text-align: left;
+  }
+
+  .login-form {
+    width: 90%; /* Adjust the form width for smaller screens */
+  }
+}
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,10 @@
+/* src/MedicalRecordsForm.css */
+.custom-submit {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+.custom-submit:hover {
+  background-color: #084298;
+  border-color: #084298;
+}

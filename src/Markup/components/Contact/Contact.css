@@ -1,0 +1,17 @@
+.php-email-form input:-webkit-autofill,
+.php-email-form input:-webkit-autofill:hover,
+.php-email-form input:-webkit-autofill:focus,
+.php-email-form input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: #000 !important;
+}
+
+.php-email-form textarea:-webkit-autofill,
+.php-email-form textarea:-webkit-autofill:hover,
+.php-email-form textarea:-webkit-autofill:focus,
+.php-email-form textarea:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: #000 !important;
+}

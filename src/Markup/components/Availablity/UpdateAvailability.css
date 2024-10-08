@@ -1,0 +1,28 @@
+.container-update {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.update-form .form-group {
+  margin-bottom: 20px;
+}
+
+.update-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.update-form input[type="text"],
+.update-form input[type="number"],
+.update-form input[type="date"],
+.update-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.update-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
